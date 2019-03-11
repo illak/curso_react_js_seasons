@@ -32,6 +32,7 @@ class App extends Component {
 	}
 
 	render() {
+		// Example! border red doesn't exists in css
 		return <div className='border red'>{this.renderContent()}</div>;
 	}
 }
